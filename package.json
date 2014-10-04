@@ -1,0 +1,35 @@
+{
+  "name": "antecedant-progressor",
+  "version": "0.0.0",
+  "main": "lib/antecedant-progressor.js",
+  "description": "Things happen before some things.",
+  "homepage": "https://github.com/usufruct/antecedant-progressor",
+  "author": {
+    "name": "Michael A Anderson",
+    "email": "usufruct@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usufruct/antecedant-progressor"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-cli": "^1.9.0",
+    "jshint-stylish": "^1.0.0",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "bin": {
+    "antecedant-progressor": "cli.js"
+  },
+  "preferGlobal": "true"
+}

@@ -1,3 +1,12 @@
 /node_modules/
 npm-debug.log
 /local_postgres/out.log
+/local_postgres/base
+/local_postgres/global
+/local_postgres/pg_stat_tmp
+/local_postgres/postmaster.pid
+/local_postgres/pg_clog
+/local_postgres/pg_multixact
+/local_postgres/pg_notify/0000
+/local_postgres/pg_subtrans/0000
+/local_postgres/pg_xlog/000000010000000000000001
